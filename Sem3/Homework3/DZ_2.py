@@ -17,6 +17,7 @@ print(my_list)
 for i in range((len(my_list)+1) // 2):
     result_list.append(my_list[i]*my_list[len(my_list)-1-i])
 print(result_list)
+print(' Программа работу закончила')
 
 
 

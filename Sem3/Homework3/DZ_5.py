@@ -23,3 +23,4 @@ def get_fibonacci(n):
 fibo_nums = get_fibonacci(n)
 print(get_fibonacci(n))
 #print(fibo_nums.index(0))
+print(' Программа работу закончила')

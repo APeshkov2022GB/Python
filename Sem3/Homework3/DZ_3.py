@@ -19,3 +19,4 @@ mynums = get_real_nums(n, frst, last)
 
 print (mynums)
 print(find_diff(mynums))
+print(' Программа работу закончила')
