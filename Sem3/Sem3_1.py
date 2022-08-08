@@ -21,21 +21,21 @@
 #     return counter
 
 # print(f"Текст '{find_text}' втречается в тексте {text_finder(org_text, find_text)} раз")
-подходит
+
 #--------------------------------------------------------------------------------------------
 
-str_list = ['12asd36', '256', 'dsds89358', '5698a']
+# str_list = ['12asd36', '256', 'dsds89358', '5698a']
 
-s_nym = input('Enter the number: ')
-is_Found = False
+# s_nym = input('Enter the number: ')
+# is_Found = False
 
-for item in str_list:
-    print(item)
-    if item.__contains__(s_nym):
-        is_Found = True
-        break
+# for item in str_list:
+#     print(item)
+#     if item.__contains__(s_nym):
+#         is_Found = True
+#         break
 
-print(is_Found)
+# print(is_Found)
 
 
 
@@ -45,9 +45,9 @@ print(is_Found)
 list = ['123', '321', '456', '96']
 count = '3'
 array_find = []
-
-for find_count in list:
-    if count in find_count:
-        array_find.append(find_count)
+[array_find.append(find_count) for find_count in list if count in find_count]
+# for find_count in list:
+#     if count in find_count:
+#         array_find.append(find_count)
 print(array_find)
 
