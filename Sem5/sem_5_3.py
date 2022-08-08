@@ -28,3 +28,4 @@ lst = list(filter(f, word))
 print('lst = ',lst)
 
 str_new = ' '.join(lst)
+print(str_new)

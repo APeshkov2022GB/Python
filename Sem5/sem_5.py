@@ -11,7 +11,7 @@ my_list = [1, 413, 65, 346]
 res = list(map(new_f, my_list))
 print(res)
 
- что с длеать; с кем сделать; условие
+ № что с длеать; с кем сделать; условие
 res = [i for i in range(5)]
 
 
